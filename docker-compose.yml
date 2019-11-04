@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  api:
+    image: dbuzar/altran-shopping-cart-backend
+    ports:
+      - 8080:8080
+    links:
+      - mongodb
+  
+  mongodb:
+    image: mongo:3.2.4
+    ports:
+    - 27017:27017
+    container_name: "mongodb"
+    command: --smallfiles
