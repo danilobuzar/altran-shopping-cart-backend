@@ -7,7 +7,7 @@
 ## Basic commands
 
 - Run `cd altran-shopping-cart-backend`
-- Run `mvn clean package`
+- Run `mvn clean package` (make sure you have maven installed in the machine https://maven.apache.org/install.html)
 
 ## Install MongoDB
 
