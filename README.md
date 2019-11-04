@@ -1,14 +1,24 @@
-# Getting Started
+# Altran Shopping Cart Backend - Test by Danilo Buzar
 
-### Reference Documentation
-For further reference, please consider the following sections:
+## Clonning de application
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.1.9.RELEASE/maven-plugin/)
-* [Spring Data MongoDB](https://docs.spring.io/spring-boot/docs/2.2.0.RELEASE/reference/htmlsingle/#boot-features-mongodb)
+- Run `git clone https://github.com/danilobuzar/altran-shopping-cart-backend.git`
 
-### Guides
-The following guides illustrate how to use some features concretely:
+## Basic commands
 
-* [Accessing Data with MongoDB](https://spring.io/guides/gs/accessing-data-mongodb/)
+- Run `cd altran-shopping-cart-backend`
+- Run `mvn clean package`
 
+## Install MongoDB
+
+- Firt you need to install MongoDB following the instructions https://docs.mongodb.com/manual/installation/
+- Make sure if you have MongDB installed in the machine with 'mongodb' as the 
+  [service name](https://docs.mongodb.com/manual/reference/program/mongod.exe/).
+
+## How to run the app locally?
+
+- Run `java -jar target/altran-shopping-cart-backend-0.0.1-SNAPSHOT.jar` to install required dependencies.
+
+## Running with Docker Compose (make sure you have it installed)
+
+- Run `docker-compose up`
